@@ -17,6 +17,7 @@
             "matches": ["<all_urls>"],
             "js": [
                     "/js/external/jquery.js",
+					"/js/external/jquery.dom-outline-1.0.js",
                     "/js/content_script.js"
                 ]
         }
