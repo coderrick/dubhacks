@@ -1,6 +1,6 @@
 $(function() {
     console.log('Hello World');
-	var myExampleClickHandler = function (element) { console.log('Clicked element:', element); }
+	var myExampleClickHandler = function (element) { console.log('Clicked element:', $(element).attr('src')); }
 	var myDomOutline = DomOutline({ onClick: myExampleClickHandler });
 	var srcval = element.attr('src');
 	console.log("Video link: " + srcval);
